@@ -4,17 +4,17 @@ function gCD(first,second){
     if(first>second){
         startPoint = second;
     }else{
-        startpoint = first;
+        startPoint = first;
     }
-        
-        for (let i = startPoint; i >=1; i--){
-            if(first%i===0 && second% i === 0){
-                greatestDiv =i;
-                console.log(greatestDiv);
-                break;
-            }
-          
+    for (let i = startPoint; i >=1; i--){
+        if(first%i===0 && second% i === 0){
+            greatestDiv =i;
+            console.log(greatestDiv);
+            break;
         }
+      
+    }   
+       
     
 }
 gCD(2154,458);
