@@ -1,6 +1,6 @@
-function delimiter(input){
+function delimiter(input,delimiter){
 
-let delimiter = input.pop();
+
 let array = input.join(`${delimiter}`);
 
     
@@ -12,6 +12,6 @@ delimiter(['One',
 'Two', 
 'Three', 
 'Four', 
-'Five', 
-'-']
+'Five'], 
+'-'
 )

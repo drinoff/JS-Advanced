@@ -1,5 +1,5 @@
-function rotateArr(input){
-let count = input.pop()%input.length;
+function rotateArr(input,rotation){
+let count = rotation%input.length;
 
 for (let i = 0; i < count; i++) {
     let element = input.pop();
@@ -12,6 +12,6 @@ console.log(input.join(' '));
 rotateArr(['1', 
 '2', 
 '3', 
-'4', 
-'2']
+'4'], 
+2
 );
