@@ -1,3 +1,3 @@
-function notify(message) {
+function addItem() {
     console.log('TODO:...');
 }
