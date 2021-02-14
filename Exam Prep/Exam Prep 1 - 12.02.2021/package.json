@@ -1,0 +1,10 @@
+{
+  "name": "Exam Prep 1 - 12.02.2021",
+  "version": "1.0.0",
+  "dependencies": {
+    "chai": "^4.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.0"
+  }
+}
